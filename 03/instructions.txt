@@ -1,0 +1,67 @@
+Homework 03
+
+Date : Monday 05 February at 12 PM ( midnight )
+
+1) Read the practices, do the exercises you consider, but read all the
+4 PDFs, please
+2) In order to prove yourself that you know how to surf on the Linux
+command line like a full pro, we are going to do a small project of
+real life Linux hacker :). We are going to do a BASH script that does
+this
+
+a ) First, you need to clone the Linux Kernel Source code from:
+
+git clone https://github.com/torvalds/linux.git
+
+b) You will see it has multiple directories, but,  how much files does each
+directory contain?
+
+The first thing your bash script should do is to print the number of
+files per directory ( extra points if you show it in a graph with gnu
+plot). Something like this ( fake numbers are used )
+
+# Documentation = 1234 files
+# arch = 789 files
+# block = 876 files
+
+c) What files exist in the Kernel Source code? Let's make your BASH
+script print this information as:
+
+# Number of README* (files as README.Locking also count)
+# Number of Kconfig files
+# Number of Kbuild files
+# Number of Makefiles files
+# Number of .c files
+# Number of .h files
+# Number of .pl files
+# Number of others files
+
+Total number of files =
+
+d) How many times the library " #include <linux/module.h>" appears in
+all the C and H documents you found? Let's make your BASH script print
+that:
+
+# Number of times the " #include <linux/module.h>" appears =
+
+e) Copy all the C and H files to these directories
+
+C_FILES
+H_FILES
+
+f) Count the number of files in these directories, they should be the
+same as the ones we count in section C right? :
+
+# Number of .c files
+# Number of .h files
+
+DONE, you are a happy Linux user :)
+
+In order to send me the homework, send me the patch under labs/02
+
+
+Happy weekend :)
+
+make me proud !!!
+
+Regards

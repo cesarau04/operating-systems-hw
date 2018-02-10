@@ -1,0 +1,34 @@
+For the terminal homework you have to send for next Monday night ( before 12 PM ) these are the requirements: 
+
+-> it has to use fork() and exec()
+
+(read this, I really mean it ): 
+
+http://man7.org/linux/man-pages/man2/fork.2.html
+http://man7.org/linux/man-pages/man3/exec.3.html
+
+-> example: 
+
+$./myterminal
+$ # ls . 
+(display the directories and files)
+$ # cat <file>
+(display the file ) 
+
+you can use the fgets or scanf : 
+
+https://en.wikibooks.org/wiki/C_Programming/Simple_input_and_output
+
+Important fancts for the patch: 
+# name of the code : terminal.c
+# put it inside lab03 
+# send the patch 
+
+Have fun and make me proud :) 
+
+you can do it, trust me 
+
+If you have any question regarding the homework, ask me ( not just before Sunday night ) 
+
+Regards
+
